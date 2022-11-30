@@ -37,7 +37,12 @@ export default function Auth() {
   };
 
   return (
-    <Box className="auth">
+    <Box
+      className="auth"
+      sx={{
+        backgroundImage: `url(https://cdn.shopify.com/s/files/1/2529/3968/files/bannerlarge.jpg?v=1669608447&width=1500)`,
+      }}
+    >
       <Container component="main" maxWidth="lg">
         <CssBaseline />
         <Box
@@ -254,8 +259,6 @@ export default function Auth() {
             }}
             id="line"
           ></Box>
-
-          {/* !===================================================================================================================================================================== */}
         </Box>
       </Container>
     </Box>
